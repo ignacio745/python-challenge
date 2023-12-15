@@ -44,7 +44,7 @@ Good luck! 💪
 
 2. Create a Postgres database
 
-3. Set up a `.env` file with the following lines
+3. Set up a `.env` file with the following lines:
     * `DB_URL=postgresql+psycopg://username:password@localhost:port/database`
     * `SECRET_KEY=YourSecretKey`
     * `ALGORITHM=HS256`
