@@ -47,8 +47,8 @@ Good luck! 💪
     * `DB_URL=postgresql+psycopg://username:password@localhost:port/database`
     * `SECRET_KEY=YourSecretKey`
     * `ALGORITHM=HS256`
-    * `ACCESS_TOKEN_EXPIRE_MINUTES=ExpTime`
-Where you have to replace: 
+    * `ACCESS_TOKEN_EXPIRE_MINUTES=ExpTime`  
+    Where you have to replace: 
     * `username`, `password`, `port` and `database` with actual user name, password, port number and name of your postgres database
     * `YourSecretKey` with the key you want to use to create tokens, (you can generate one in linux with the command `openssl rand -hex 32`)
     * `ExpTime` with the time you want the session to last in minutes
