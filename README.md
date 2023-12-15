@@ -55,8 +55,8 @@ Good luck! 💪
 
 ## Using the API
 
-    You can test the API endpoints with the FastAPI interactive documentation, to do this:
-    1. Run the `main.py` file 
-    2. Click the URL showed in the terminal, it will open your browser
-    3. In the browser, add "/docs" to the URL that was open (it should look similar to http://127.0.0.1:8080/docs), you will be redirected to the interactive documentation
-    4. You can now use the interactive documentation where you can Create, Read, Update and Delete users and bookings by clicking the "Try it out" button in the respective zones and entering the required data for path parameters (in this API it is always an ID) and the request body (in the request body it will have to be in json format for what you just have to replace the documentation integrated examples with the actual data you want to send, for example, replace "user@example.com" with "marco@mail.com" in the "email" field) and click the "Execute" blue button. To operate with bookings you'll first have to create a user with the POST method in the "Users" section and sign in with it by clicking the "Authorize" green button in the upper right area of the documentation and entering username and password of the user you created. Now you can use POST, GET, PUT and DELETE methods in the "Bookings" section.
+You can test the API endpoints with the FastAPI interactive documentation, to do this:
+1. Run the `main.py` file 
+2. Click the URL showed in the terminal, it will open your browser
+3. In the browser, add "/docs" to the URL that was open (it should look similar to http://127.0.0.1:8080/docs), you will be redirected to the interactive documentation
+4. You can now use the interactive documentation where you can Create, Read, Update and Delete users and bookings by clicking the "Try it out" button in the respective zones and entering the required data for path parameters (in this API it is always an ID) and the request body (in the request body it will have to be in json format for what you just have to replace the documentation integrated examples with the actual data you want to send, for example, replace "user@example.com" with "marco@mail.com" in the "email" field) and click the "Execute" blue button. To operate with bookings you'll first have to create a user with the POST method in the "Users" section and sign in with it by clicking the "Authorize" green button in the upper right area of the documentation and entering username and password of the user you created. Now you can use POST, GET, PUT and DELETE methods in the "Bookings" section.
