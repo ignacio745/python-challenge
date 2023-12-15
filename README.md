@@ -36,6 +36,7 @@ Once you're done, please send us an email to [tech@ada-school.org](mailto:tech@a
 
 Good luck! 💪
 
+# Solution
 
 ## Requirements to run the API
 
